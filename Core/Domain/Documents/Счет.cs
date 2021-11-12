@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Core.Domain.Documents.Common;
+
 namespace Core.Domain.Documents
 {
     public class Счет : Документ

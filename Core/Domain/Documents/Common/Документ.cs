@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Core.Domain.Documents
+namespace Core.Domain.Documents.Common
 {
     public abstract class Документ : IValidatableObject
     {
