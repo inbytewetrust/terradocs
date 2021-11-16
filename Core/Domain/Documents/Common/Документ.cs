@@ -9,7 +9,7 @@ namespace Core.Domain.Documents.Common
         public string Name { get; set; }
         public int DocType { get; set; }
 
-        public virtual IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        public virtual IEnumerable<ValidationResult> Validate(ValidationContext context)
         {
             var errors = new List<ValidationResult>();
 

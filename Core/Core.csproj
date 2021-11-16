@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Documents\Common\Attributes\StringPatternAttribute.cs" />
     <Compile Include="Domain\Documents\Common\Документ.cs" />
     <Compile Include="Domain\Documents\Квитанция.cs" />
     <Compile Include="Domain\Documents\ПлатежноеПоручение.cs" />
