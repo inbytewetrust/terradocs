@@ -38,6 +38,9 @@ namespace WebApp.mine.ModelBinders
 
             bindingContext.Model = document;
 
+            // Это приведет только к заполнению ошибок в модели после валидации полей.
+            // Проверку наличия ошибок и ответ клиенту, если они есть, - нужно писать отдельно.
+            // Это можно сделать через ActionFilter, т.к. сперва выполняется биндинг, а потом - фильтры.
             bindingContext.ValidationNode.ValidateAllProperties = true;
             bindingContext.ValidationNode.Validate(actionContext);
 
